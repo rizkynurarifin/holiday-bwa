@@ -18,20 +18,6 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
         });
-
-        // Schema::create('holiday_packages', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->string('name');
-        //     $table->string('slug')->unique();
-        //     $table->string('thumbnail');
-        //     $table->text('about');
-        //     $table->string('location');
-        //     $table->unsignedBigInteger('price');
-        //     $table->unsignedBigInteger('day');
-        //     $table->foreignId('category_id')->constrained()->cascadeOnDelete();
-        //     $table->softDeletes();
-        //     $table->timestamps();
-        // });
     }
 
     /**

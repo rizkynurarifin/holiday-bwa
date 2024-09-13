@@ -18,20 +18,6 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
         });
-
-        // Schema::create('transactions', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->string('trx_id');
-        //     $table->unsignedBigInteger('quantity');
-        //     $table->date('holiday_date');
-        //     $table->unsignedBigInteger('total_amount');
-        //     $table->boolean('is_paid');
-        //     $table->string('proof');
-        //     $table->foreignId('user_id')->constrained()->cascadeOnDelete();
-        //     $table->foreignId('holiday_package_id')->constrained()->cascadeOnDelete();
-        //     $table->softDeletes();
-        //     $table->timestamps();
-        // });
     }
 
     /**

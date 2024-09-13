@@ -18,14 +18,6 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
         });
-
-        // Schema::create('destination_packages', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->foreignId('holiday_package_id')->constrained()->cascadeOnDelete();
-        //     $table->foreignId('destination_id')->constrained()->cascadeOnDelete();
-        //     $table->softDeletes();
-        //     $table->timestamps();
-        // });
     }
 
     /**

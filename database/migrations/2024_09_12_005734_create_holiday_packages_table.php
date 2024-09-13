@@ -24,14 +24,6 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
         });
-
-        // Schema::create('holiday_package_photos', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->foreignId('holiday_package_id')->constrained()->cascadeOnDelete();
-        //     $table->string('photo');
-        //     $table->softDeletes();
-        //     $table->timestamps();
-        // });
     }
 
     /**

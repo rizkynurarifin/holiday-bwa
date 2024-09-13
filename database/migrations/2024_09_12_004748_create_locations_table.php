@@ -19,17 +19,6 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
         });
-        
-        // Schema::create('destinations', function (Blueprint $table) {
-        //     $table->id();
-        //     $table->string('name');
-        //     $table->string('slug')->unique();
-        //     $table->string('thumbnail');
-        //     $table->text('about');
-        //     $table->string('location');
-        //     $table->softDeletes();
-        //     $table->timestamps();
-        // });
     }
 
     /**
